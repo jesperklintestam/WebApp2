@@ -17,7 +17,7 @@ namespace WebApplication2.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
-            var viewModel = new CompanyBoxVM
+            var vM = new CompanyBoxVM
             {
                 CompanyName = "Acme",
                 City = "Malmö"

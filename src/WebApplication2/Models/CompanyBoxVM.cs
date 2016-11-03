@@ -8,6 +8,6 @@ namespace WebApplication2.Models
     public class CompanyBoxVM
     {
         public string CompanyName { get; set; }
-        public string City { get; set; }
+        public string City { get; private set; }
     }
 }
